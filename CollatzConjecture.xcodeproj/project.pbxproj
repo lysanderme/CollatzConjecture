@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2736812A0D20AE00D1922D /* CollatzConjectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2736802A0D20AE00D1922D /* CollatzConjectureApp.swift */; };
+		4F2736832A0D20AE00D1922D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2736822A0D20AE00D1922D /* ContentView.swift */; };
+		4F2736852A0D20B000D1922D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2736842A0D20B000D1922D /* Assets.xcassets */; };
+		4F2736882A0D20B000D1922D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2736872A0D20B000D1922D /* Preview Assets.xcassets */; };
+		4F2736922A0D20B000D1922D /* CollatzConjectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2736912A0D20B000D1922D /* CollatzConjectureTests.swift */; };
+		4F27369C2A0D20B000D1922D /* CollatzConjectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F27369B2A0D20B000D1922D /* CollatzConjectureUITests.swift */; };
+		4F27369E2A0D20B000D1922D /* CollatzConjectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F27369D2A0D20B000D1922D /* CollatzConjectureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F27368E2A0D20B000D1922D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2736752A0D20AE00D1922D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F27367C2A0D20AE00D1922D;
+			remoteInfo = CollatzConjecture;
+		};
+		4F2736982A0D20B000D1922D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2736752A0D20AE00D1922D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F27367C2A0D20AE00D1922D;
+			remoteInfo = CollatzConjecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F27367D2A0D20AE00D1922D /* CollatzConjecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollatzConjecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2736802A0D20AE00D1922D /* CollatzConjectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollatzConjectureApp.swift; sourceTree = "<group>"; };
+		4F2736822A0D20AE00D1922D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F2736842A0D20B000D1922D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F2736872A0D20B000D1922D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F27368D2A0D20B000D1922D /* CollatzConjectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollatzConjectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2736912A0D20B000D1922D /* CollatzConjectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollatzConjectureTests.swift; sourceTree = "<group>"; };
+		4F2736972A0D20B000D1922D /* CollatzConjectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollatzConjectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F27369B2A0D20B000D1922D /* CollatzConjectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollatzConjectureUITests.swift; sourceTree = "<group>"; };
+		4F27369D2A0D20B000D1922D /* CollatzConjectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollatzConjectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F27367A2A0D20AE00D1922D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F27368A2A0D20B000D1922D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2736942A0D20B000D1922D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2736742A0D20AE00D1922D = {
+			isa = PBXGroup;
+			children = (
+				4F27367F2A0D20AE00D1922D /* CollatzConjecture */,
+				4F2736902A0D20B000D1922D /* CollatzConjectureTests */,
+				4F27369A2A0D20B000D1922D /* CollatzConjectureUITests */,
+				4F27367E2A0D20AE00D1922D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F27367E2A0D20AE00D1922D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F27367D2A0D20AE00D1922D /* CollatzConjecture.app */,
+				4F27368D2A0D20B000D1922D /* CollatzConjectureTests.xctest */,
+				4F2736972A0D20B000D1922D /* CollatzConjectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F27367F2A0D20AE00D1922D /* CollatzConjecture */ = {
+			isa = PBXGroup;
+			children = (
+				4F2736802A0D20AE00D1922D /* CollatzConjectureApp.swift */,
+				4F2736822A0D20AE00D1922D /* ContentView.swift */,
+				4F2736842A0D20B000D1922D /* Assets.xcassets */,
+				4F2736862A0D20B000D1922D /* Preview Content */,
+			);
+			path = CollatzConjecture;
+			sourceTree = "<group>";
+		};
+		4F2736862A0D20B000D1922D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F2736872A0D20B000D1922D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F2736902A0D20B000D1922D /* CollatzConjectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F2736912A0D20B000D1922D /* CollatzConjectureTests.swift */,
+			);
+			path = CollatzConjectureTests;
+			sourceTree = "<group>";
+		};
+		4F27369A2A0D20B000D1922D /* CollatzConjectureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F27369B2A0D20B000D1922D /* CollatzConjectureUITests.swift */,
+				4F27369D2A0D20B000D1922D /* CollatzConjectureUITestsLaunchTests.swift */,
+			);
+			path = CollatzConjectureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F27367C2A0D20AE00D1922D /* CollatzConjecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2736A12A0D20B000D1922D /* Build configuration list for PBXNativeTarget "CollatzConjecture" */;
+			buildPhases = (
+				4F2736792A0D20AE00D1922D /* Sources */,
+				4F27367A2A0D20AE00D1922D /* Frameworks */,
+				4F27367B2A0D20AE00D1922D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollatzConjecture;
+			productName = CollatzConjecture;
+			productReference = 4F27367D2A0D20AE00D1922D /* CollatzConjecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F27368C2A0D20B000D1922D /* CollatzConjectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2736A42A0D20B000D1922D /* Build configuration list for PBXNativeTarget "CollatzConjectureTests" */;
+			buildPhases = (
+				4F2736892A0D20B000D1922D /* Sources */,
+				4F27368A2A0D20B000D1922D /* Frameworks */,
+				4F27368B2A0D20B000D1922D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F27368F2A0D20B000D1922D /* PBXTargetDependency */,
+			);
+			name = CollatzConjectureTests;
+			productName = CollatzConjectureTests;
+			productReference = 4F27368D2A0D20B000D1922D /* CollatzConjectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F2736962A0D20B000D1922D /* CollatzConjectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2736A72A0D20B000D1922D /* Build configuration list for PBXNativeTarget "CollatzConjectureUITests" */;
+			buildPhases = (
+				4F2736932A0D20B000D1922D /* Sources */,
+				4F2736942A0D20B000D1922D /* Frameworks */,
+				4F2736952A0D20B000D1922D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F2736992A0D20B000D1922D /* PBXTargetDependency */,
+			);
+			name = CollatzConjectureUITests;
+			productName = CollatzConjectureUITests;
+			productReference = 4F2736972A0D20B000D1922D /* CollatzConjectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2736752A0D20AE00D1922D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F27367C2A0D20AE00D1922D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4F27368C2A0D20B000D1922D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4F27367C2A0D20AE00D1922D;
+					};
+					4F2736962A0D20B000D1922D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4F27367C2A0D20AE00D1922D;
+					};
+				};
+			};
+			buildConfigurationList = 4F2736782A0D20AE00D1922D /* Build configuration list for PBXProject "CollatzConjecture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F2736742A0D20AE00D1922D;
+			productRefGroup = 4F27367E2A0D20AE00D1922D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F27367C2A0D20AE00D1922D /* CollatzConjecture */,
+				4F27368C2A0D20B000D1922D /* CollatzConjectureTests */,
+				4F2736962A0D20B000D1922D /* CollatzConjectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F27367B2A0D20AE00D1922D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2736882A0D20B000D1922D /* Preview Assets.xcassets in Resources */,
+				4F2736852A0D20B000D1922D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F27368B2A0D20B000D1922D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2736952A0D20B000D1922D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2736792A0D20AE00D1922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2736832A0D20AE00D1922D /* ContentView.swift in Sources */,
+				4F2736812A0D20AE00D1922D /* CollatzConjectureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2736892A0D20B000D1922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2736922A0D20B000D1922D /* CollatzConjectureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2736932A0D20B000D1922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F27369E2A0D20B000D1922D /* CollatzConjectureUITestsLaunchTests.swift in Sources */,
+				4F27369C2A0D20B000D1922D /* CollatzConjectureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F27368F2A0D20B000D1922D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F27367C2A0D20AE00D1922D /* CollatzConjecture */;
+			targetProxy = 4F27368E2A0D20B000D1922D /* PBXContainerItemProxy */;
+		};
+		4F2736992A0D20B000D1922D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F27367C2A0D20AE00D1922D /* CollatzConjecture */;
+			targetProxy = 4F2736982A0D20B000D1922D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F27369F2A0D20B000D1922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F2736A02A0D20B000D1922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F2736A22A0D20B000D1922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CollatzConjecture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysanderme.CollatzConjecture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F2736A32A0D20B000D1922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CollatzConjecture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysanderme.CollatzConjecture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F2736A52A0D20B000D1922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysanderme.CollatzConjectureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollatzConjecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollatzConjecture";
+			};
+			name = Debug;
+		};
+		4F2736A62A0D20B000D1922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysanderme.CollatzConjectureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollatzConjecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollatzConjecture";
+			};
+			name = Release;
+		};
+		4F2736A82A0D20B000D1922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysanderme.CollatzConjectureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollatzConjecture;
+			};
+			name = Debug;
+		};
+		4F2736A92A0D20B000D1922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysanderme.CollatzConjectureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollatzConjecture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F2736782A0D20AE00D1922D /* Build configuration list for PBXProject "CollatzConjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F27369F2A0D20B000D1922D /* Debug */,
+				4F2736A02A0D20B000D1922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2736A12A0D20B000D1922D /* Build configuration list for PBXNativeTarget "CollatzConjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2736A22A0D20B000D1922D /* Debug */,
+				4F2736A32A0D20B000D1922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2736A42A0D20B000D1922D /* Build configuration list for PBXNativeTarget "CollatzConjectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2736A52A0D20B000D1922D /* Debug */,
+				4F2736A62A0D20B000D1922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2736A72A0D20B000D1922D /* Build configuration list for PBXNativeTarget "CollatzConjectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2736A82A0D20B000D1922D /* Debug */,
+				4F2736A92A0D20B000D1922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F2736752A0D20AE00D1922D /* Project object */;
+}
